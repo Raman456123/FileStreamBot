@@ -1,4 +1,4 @@
-#(c) Vivek Tomar ID - @ChVivekTomar
+#(c) Adarsh-Goel
 import datetime
 import motor.motor_asyncio
 

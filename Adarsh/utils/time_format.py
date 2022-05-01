@@ -1,4 +1,4 @@
-# (c) Vivek Tomar ID - @ChVivekTomar
+# (c) adarsh-goel
 # Bot Uptime
 
 def get_readable_time(seconds: int) -> str:

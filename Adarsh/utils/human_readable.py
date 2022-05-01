@@ -1,4 +1,4 @@
-# (c) Vivek Tomar ID - @ChVivekTomar
+# (c) adarsh-goel
 
 
 def humanbytes(size):
