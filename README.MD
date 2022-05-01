@@ -1,6 +1,3 @@
-![GitHub contributors](https://img.shields.io/github/contributors/adarsh-goel/Filestreambot-pro?style=flat&color=green)
-![GitHub repo size](https://img.shields.io/github/repo-size/adarsh-goel/Filestreambot-pro?color=green)
-![GitHub](https://img.shields.io/github/license/adarsh-goel/Filestreambot-pro?color=green)
 
 
 <h1 align="center">FileStreamBot</h1>
