@@ -111,9 +111,9 @@ async def private_receive_handler(c: Client, m: Message):
 
 <b>⏳ Fɪʟᴇ ꜱɪᴢᴇ :</b> <i>{}</i>
 
-<b>📥 ᴅᴏᴡɴʟᴏᴀᴅ :</b> <i>{}</i>
+<b>📥 ᴅᴏᴡɴʟᴏᴀᴅ :</b> <code>{}</code>
 
-<b>🎞️ ᴏɴʟɪɴᴇ ꜱᴛʀᴇᴀᴍ ʟɪɴᴋ:</b> <i>{}</i>
+<b>🎞️ ᴏɴʟɪɴᴇ ꜱᴛʀᴇᴀᴍ ʟɪɴᴋ:</b> <code>{}</code>
 
 <b>🆘 Nᴏᴛᴇ : LINK WON'T EXPIRE UNTILL I DELETE</b>"""
 
