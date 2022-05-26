@@ -113,13 +113,13 @@ async def private_receive_handler(c: Client, m: Message):
 
 <b>📥 𝐃𝐨𝐰𝐧𝐥𝐨𝐚𝐝 𝐋𝐢𝐧𝐤 :</b> https://droplink.kalvidudes.in/st?api=091f2c0a78b3766954c7dae3dffed779d8740a30&url=<code>{}</code>
 
-<b>🎞️ 𝐎𝐧𝐥𝐢𝐧𝐞 𝐒𝐭𝐫𝐞𝐚𝐦 𝐋𝐢𝐧𝐤 :</b> <code>{}</code>
+<b>🎞️ 𝐎𝐧𝐥𝐢𝐧𝐞 𝐒𝐭𝐫𝐞𝐚𝐦 𝐋𝐢𝐧𝐤 :</b> https://droplink.kalvidudes.in/st?api=091f2c0a78b3766954c7dae3dffed779d8740a30&url=<code>{}</code>
 
 <b>🆘 𝐍𝐨𝐭𝐞 1 : 𝐋𝐢𝐧𝐤 𝐖𝐨𝐧'𝐭 𝐄𝐱𝐩𝐢𝐫𝐞 𝐔𝐧𝐭𝐢𝐥𝐥 𝐈 𝐃𝐞𝐥𝐞𝐭𝐞.</b>
 
 <b>🆘 𝐍𝐨𝐭𝐞 2 : 𝐖𝐞 𝐖𝐢𝐥𝐥 𝐑𝐞𝐜𝐨𝐦𝐦𝐞𝐧𝐝 𝐘𝐨𝐮 𝐓𝐨 𝐔𝐬𝐞 𝟏𝐃𝐌 , 𝐈𝐃𝐌 𝐎𝐑 𝐀𝐃𝐌 𝐓𝐨 𝐃𝐨𝐰𝐧𝐥𝐨𝐚𝐝 𝐅𝐢𝐥𝐞 𝐐𝐮𝐢𝐜𝐤𝐥𝐲.</b>"""
 
-        await log_msg.reply_text(text=f"**RᴇQᴜᴇꜱᴛᴇᴅ ʙʏ :** [{m.from_user.first_name}](tg://user?id={m.from_user.id})\n**Uꜱᴇʀ ɪᴅ :** `{m.from_user.id}`\n**Stream ʟɪɴᴋ :** https://droplink.kalvidudes.in/st?api=091f2c0a78b3766954c7dae3dffed779d8740a30&url={stream_link}", disable_web_page_preview=True, parse_mode="Markdown", quote=True)
+        await log_msg.reply_text(text=f"**RᴇQᴜᴇꜱᴛᴇᴅ ʙʏ :** [{m.from_user.first_name}](tg://user?id={m.from_user.id})\n**Uꜱᴇʀ ɪᴅ :** `{m.from_user.id}`\n**Stream ʟɪɴᴋ :** {stream_link}", disable_web_page_preview=True, parse_mode="Markdown", quote=True)
         await m.reply_text(
             text=msg_text.format(get_name(log_msg), humanbytes(get_media_file_size(m)), online_link, stream_link),
             parse_mode="HTML", 
