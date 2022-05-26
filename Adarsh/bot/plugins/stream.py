@@ -90,7 +90,7 @@ async def private_receive_handler(c: Client, m: Message):
             await m.reply_text(e)
             await c.send_message(
                 chat_id=m.chat.id,
-                text="**Sᴏᴍᴇᴛʜɪɴɢ ᴡᴇɴᴛ Wʀᴏɴɢ. Cᴏɴᴛᴀᴄᴛ ᴍʏ ʙᴏss** @ChVivekTomar",
+                text="**Sᴏᴍᴇᴛʜɪɴɢ ᴡᴇɴᴛ Wʀᴏɴɢ. Cᴏɴᴛᴀᴄᴛ ᴍʏ ʙᴏss** @Pravin_boopathi",
                 parse_mode="markdown",
                 disable_web_page_preview=True)
             return
@@ -125,8 +125,8 @@ async def private_receive_handler(c: Client, m: Message):
             parse_mode="HTML", 
             quote=True,
             disable_web_page_preview=True,
-            reply_markup=InlineKeyboardMarkup([[InlineKeyboardButton("🖥ᴏɴʟɪɴᴇ ꜱᴛʀᴇᴀᴍ 🎞️", url=stream_link), #Stream Link
-                                                InlineKeyboardButton('Dᴏᴡɴʟᴏᴀᴅ 📥', url=online_link)]]) #Download Link
+            reply_markup=InlineKeyboardMarkup([[InlineKeyboardButton("🖥ᴏɴʟɪɴᴇ ꜱᴛʀᴇᴀᴍ 🎞️", https://droplink.kalvidudes.in/st?api=091f2c0a78b3766954c7dae3dffed779d8740a30&url=stream_link), #Stream Link
+                                                InlineKeyboardButton('Dᴏᴡɴʟᴏᴀᴅ 📥', https://droplink.kalvidudes.in/st?api=091f2c0a78b3766954c7dae3dffed779d8740a30&url=online_link)]]) #Download Link
         )
     except FloodWait as e:
         print(f"Sleeping for {str(e.x)}s")
@@ -153,7 +153,7 @@ async def channel_receive_handler(bot, broadcast):
         stream_link = f"{Var.URL}watch/{quote_plus(get_name(log_msg))}/{str(log_msg.message_id)}?hash={get_hash(log_msg)}"
         online_link = f"{Var.URL}{quote_plus(get_name(log_msg))}/{str(log_msg.message_id)}?hash={get_hash(log_msg)}"
         await log_msg.reply_text(
-            text=f"**Cʜᴀɴɴᴇʟ Nᴀᴍᴇ:** `{broadcast.chat.title}`\n**Cʜᴀɴɴᴇʟ ID:** `{broadcast.chat.id}`\n**Rᴇǫᴜᴇsᴛ ᴜʀʟ:** {stream_link}",
+            text=f"**Cʜᴀɴɴᴇʟ Nᴀᴍᴇ:** `{broadcast.chat.title}`\n**Cʜᴀɴɴᴇʟ ID:** `{broadcast.chat.id}`\n**Rᴇǫᴜᴇsᴛ ᴜʀʟ:** https://droplink.kalvidudes.in/st?api=091f2c0a78b3766954c7dae3dffed779d8740a30&{stream_link}",
             quote=True,
             parse_mode="Markdown"
         )
@@ -162,8 +162,8 @@ async def channel_receive_handler(bot, broadcast):
             message_id=broadcast.message_id,
             reply_markup=InlineKeyboardMarkup(
                 [
-                    [InlineKeyboardButton("🖥ᴏɴʟɪɴᴇ ꜱᴛʀᴇᴀᴍ 🎞️", url=stream_link),
-                     InlineKeyboardButton('Dᴏᴡɴʟᴏᴀᴅ 📥', url=online_link)] 
+                    [InlineKeyboardButton("🖥ᴏɴʟɪɴᴇ ꜱᴛʀᴇᴀᴍ 🎞️", https://droplink.kalvidudes.in/st?api=091f2c0a78b3766954c7dae3dffed779d8740a30&url=stream_link),
+                     InlineKeyboardButton('Dᴏᴡɴʟᴏᴀᴅ 📥', https://droplink.kalvidudes.in/st?api=091f2c0a78b3766954c7dae3dffed779d8740a30&url=online_link)] 
                 ]
             )
         )
