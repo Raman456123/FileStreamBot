@@ -78,7 +78,7 @@ async def start(b, m):
     await StreamBot.send_photo(
         chat_id=m.chat.id,
         photo ="https://telegra.ph/file/f1ebd7a18d2bc47e1c7e1.jpg",
-        caption =f'𝐇𝐢 👋 {m.from_user.mention(style="md")}!,\n𝐈 𝐚𝐦 𝐀 𝐓𝐞𝐥𝐞𝐠𝐫𝐚𝐦 𝐅𝐢𝐥𝐞 𝐭𝐨 𝐃𝐨𝐰𝐧𝐥𝐨𝐚𝐝 & 𝐒𝐭𝐫𝐞𝐚𝐦 𝐋𝐢𝐧𝐤 𝐆𝐞𝐧𝐞𝐫𝐚𝐭𝐨𝐫 𝐁𝐨𝐭 𝐖𝐢𝐭𝐡 𝐂𝐡𝐚𝐧𝐧𝐞𝐥 𝐒𝐮𝐩𝐩𝐨𝐫𝐭.\n\n𝐒𝐞𝐧𝐝 𝐌𝐞 𝐀𝐧𝐲 𝐅𝐢𝐥𝐞 𝐚𝐧𝐝 𝐆𝐞𝐭 𝐃𝐢𝐫𝐞𝐜𝐭 𝐃𝐨𝐰𝐧𝐥𝐨𝐚𝐝 & 𝐒𝐭𝐫𝐞𝐚𝐦 𝐋𝐢𝐧𝐤.\n\n𝐖𝐞 𝐖𝐢𝐥𝐥 𝐑𝐞𝐜𝐨𝐦𝐦𝐞𝐧𝐝 𝐘𝐨𝐮 𝐓𝐨 𝐔𝐬𝐞 𝟏𝐃𝐌 , 𝐈𝐃𝐌 𝐎𝐑 𝐀𝐃𝐌 𝐓𝐨 𝐃𝐨𝐰𝐧𝐥𝐨𝐚𝐝 𝐅𝐢𝐥𝐞 𝐐𝐮𝐢𝐜𝐤𝐥𝐲.\n\n𝐌𝐚𝐢𝐧𝐭𝐚𝐢𝐧𝐞𝐝 𝐁𝐲: : @ChVivekTomar',
+        caption =f'𝐇𝐢 👋 {m.from_user.mention(style="md")}!,\n𝐈 𝐚𝐦 𝐀 𝐓𝐞𝐥𝐞𝐠𝐫𝐚𝐦 𝐅𝐢𝐥𝐞 𝐭𝐨 𝐃𝐨𝐰𝐧𝐥𝐨𝐚𝐝 & 𝐒𝐭𝐫𝐞𝐚𝐦 𝐋𝐢𝐧𝐤 𝐆𝐞𝐧𝐞𝐫𝐚𝐭𝐨𝐫 𝐁𝐨𝐭 𝐖𝐢𝐭𝐡 𝐂𝐡𝐚𝐧𝐧𝐞𝐥 𝐒𝐮𝐩𝐩𝐨𝐫𝐭.\n\n𝐒𝐞𝐧𝐝 𝐌𝐞 𝐀𝐧𝐲 𝐅𝐢𝐥𝐞 𝐚𝐧𝐝 𝐆𝐞𝐭 𝐃𝐢𝐫𝐞𝐜𝐭 𝐃𝐨𝐰𝐧𝐥𝐨𝐚𝐝 & 𝐒𝐭𝐫𝐞𝐚𝐦 𝐋𝐢𝐧𝐤.\n\n𝐖𝐞 𝐖𝐢𝐥𝐥 𝐑𝐞𝐜𝐨𝐦𝐦𝐞𝐧𝐝 𝐘𝐨𝐮 𝐓𝐨 𝐔𝐬𝐞 𝟏𝐃𝐌 , 𝐈𝐃𝐌 𝐎𝐑 𝐀𝐃𝐌 𝐓𝐨 𝐃𝐨𝐰𝐧𝐥𝐨𝐚𝐝 𝐅𝐢𝐥𝐞 𝐐𝐮𝐢𝐜𝐤𝐥𝐲.\n\n𝐌𝐚𝐢𝐧𝐭𝐚𝐢𝐧𝐞𝐝 𝐁𝐲: : @Pravin_boopathi',
         reply_markup=buttonz)
 
 
