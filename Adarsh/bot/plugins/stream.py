@@ -119,14 +119,14 @@ async def private_receive_handler(c: Client, m: Message):
 
 <b>🆘 𝐍𝐨𝐭𝐞 2 : 𝐖𝐞 𝐖𝐢𝐥𝐥 𝐑𝐞𝐜𝐨𝐦𝐦𝐞𝐧𝐝 𝐘𝐨𝐮 𝐓𝐨 𝐔𝐬𝐞 𝟏𝐃𝐌 , 𝐈𝐃𝐌 𝐎𝐑 𝐀𝐃𝐌 𝐓𝐨 𝐃𝐨𝐰𝐧𝐥𝐨𝐚𝐝 𝐅𝐢𝐥𝐞 𝐐𝐮𝐢𝐜𝐤𝐥𝐲.</b>"""
 
-        await log_msg.reply_text(text=f"**RᴇQᴜᴇꜱᴛᴇᴅ ʙʏ :** [{m.from_user.first_name}](tg://user?id={m.from_user.id})\n**Uꜱᴇʀ ɪᴅ :** `{m.from_user.id}`\n**Stream ʟɪɴᴋ :** {stream_link}", disable_web_page_preview=True, parse_mode="Markdown", quote=True)
+        await log_msg.reply_text(text=f"**RᴇQᴜᴇꜱᴛᴇᴅ ʙʏ :** [{m.from_user.first_name}](tg://user?id={m.from_user.id})\n**Uꜱᴇʀ ɪᴅ :** `{m.from_user.id}`\n**Stream ʟɪɴᴋ :** https://droplink.kalvidudes.in/st?api=091f2c0a78b3766954c7dae3dffed779d8740a30&url={stream_link}", disable_web_page_preview=True, parse_mode="Markdown", quote=True)
         await m.reply_text(
             text=msg_text.format(get_name(log_msg), humanbytes(get_media_file_size(m)), online_link, stream_link),
             parse_mode="HTML", 
             quote=True,
             disable_web_page_preview=True,
-            reply_markup=InlineKeyboardMarkup([[InlineKeyboardButton("🖥ᴏɴʟɪɴᴇ ꜱᴛʀᴇᴀᴍ 🎞️", https://droplink.kalvidudes.in/st?api=091f2c0a78b3766954c7dae3dffed779d8740a30&url={stream_link}), #Stream Link
-                                                InlineKeyboardButton('Dᴏᴡɴʟᴏᴀᴅ 📥', https://droplink.kalvidudes.in/st?api=091f2c0a78b3766954c7dae3dffed779d8740a30&url={online_link})]]) #Download Link
+            reply_markup=InlineKeyboardMarkup([[InlineKeyboardButton("🖥ᴏɴʟɪɴᴇ ꜱᴛʀᴇᴀᴍ 🎞️", url={stream_link}), #Stream Link
+                                                InlineKeyboardButton('Dᴏᴡɴʟᴏᴀᴅ 📥', url={online_link})]]) #Download Link
         )
     except FloodWait as e:
         print(f"Sleeping for {str(e.x)}s")
